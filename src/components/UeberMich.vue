@@ -12,22 +12,6 @@
             </div>
         </div>
     </div>
-  <!--   <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="my-3">Responsive Design</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-    </div>
-    <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-        </span>
-        <h4 class="my-3">Web Security</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-    </div> -->
 </div>
 </template>
 
@@ -70,8 +54,11 @@ export default {
 
 <style lang="scss" scoped>
 .sprachen {
-    width: 80vw;
+    width: 94vw;
+    margin: 0 auto;
+    border: 1px solid blue;
     padding-bottom: 1.5rem;
+
 
 }
 
@@ -82,7 +69,7 @@ export default {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2rem;
-    width: 80vw;
+    width: 90vw;
     margin: 0 auto;
     line-height: 2.5rem;
 
