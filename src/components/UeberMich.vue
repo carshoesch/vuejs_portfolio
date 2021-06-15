@@ -2,7 +2,7 @@
   <div class="row text-center">
     <div class="col-md-4">
         <h3 class="sprachen">
-            Sprachen
+            Sprachen/Skills
         </h3>
         <div class="skills">
             <div class="my-3 skill" v-for="(skill, index) in MySkills" :key="index">
@@ -44,6 +44,10 @@ export default {
                 {
                     language: "Python", 
                     image: 'fab fa-python fa-4x'
+                },
+                {
+                    language: "Git",
+                    image: 'fab fa-git fa-4x'
                 }
             ]
         }
@@ -53,33 +57,29 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.sprachen {
-    width: 94vw;
-    margin: 0 auto;
-    border: 1px solid blue;
-    padding-bottom: 1.5rem;
+.col-md-4{
 
+/*     border: 1px solid red;
+ */    width: 100%;
 
-}
+    .sprachen {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 1.5rem;
 
-.skills {
+    }
 
-    /* border: 1px solid blue; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 2rem;
-    width: 90vw;
-    margin: 0 auto;
-    line-height: 2.5rem;
+    .skills {
 
-    .ueberMich {
-        border: 1px solid black;
-        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 2rem;
+        width:90%;
+        margin: 0 auto;
+        line-height: 2.5rem;
 
-        img {
-            border: 1px solid red;
-        }
     }
 }
 </style>>
