@@ -12,7 +12,7 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">{{ obj.caption }}</div>
                         <br>
-                        <button><a :href="obj.link_git" target="_blank">Git-Repo</a></button>
+                        <button><a :href="obj.link_git" target="_blank">Git-Repo</a></button>&nbsp
                         <button><a :href="obj.link_live" target="_blank">Live-Demo</a></button>
                     </div>
                 </div>
