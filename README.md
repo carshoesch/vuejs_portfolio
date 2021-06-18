@@ -1,4 +1,13 @@
 # vue_portfolio_firsttry
+## Clone project
+```
+git clone <ssh link>
+```
+
+## move into folder
+```
+cd <foldername>
+```
 
 ## Project setup
 ```
