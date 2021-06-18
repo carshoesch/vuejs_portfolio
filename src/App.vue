@@ -1,27 +1,11 @@
 <template>
-            <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-              <div class="container">
-                  <a class="navbar-brand" href="#page-top">C<span class="normalLetters">arsten</span> H<span class="normalLetters">öschele</span></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                      Menu
-                      <i class="fas fa-bars ms-1"></i>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarResponsive">
-                      <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#werdegang">Werdegang</a></li>
-                          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                      </ul>
-                  </div>
-              </div>
-          </nav>
+            <Navbar/>
           <!-- Masthead--> 
           <header class="masthead">
               <div class="container">
                   <div class="masthead-heading text-uppercase">Hi, ich bin Carsten</div>
                   <!-- <div class="masthead-heading text-uppercase">Moin, Snow hier</div> -->
-                  <div class="masthead-subheading">Software-Entwickler und Data Engineer</div>
+                  <div class="masthead-subheading">Software-Entwickler & Data Engineer</div>
                   <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Zum Portfolio</a>
               </div>
           </header>
@@ -354,6 +338,7 @@
 import UeberMich from './components/UeberMich.vue'
 import PortfolioItems from './components/PortfolioItems.vue'
 import Werdegang from './components/Werdegang.vue'
+import Navbar from './components/Navbar.vue'
 
 
 export default {
@@ -361,7 +346,8 @@ export default {
   components: {
     UeberMich,
     PortfolioItems,
-    Werdegang
+    Werdegang,
+    Navbar
   }
 }
 </script>
