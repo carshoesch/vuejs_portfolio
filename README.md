@@ -1,4 +1,4 @@
-# vue_portfolio_firsttry
+# Portfolio basierend auf VueJS und Bootstrap
 ## Clone project
 ```
 git clone <ssh link>
