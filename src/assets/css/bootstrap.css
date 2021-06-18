@@ -11328,7 +11328,8 @@ header.masthead {
 	padding-bottom: 6rem;
 	text-align: center;
 	color: #fff;
-	background-image: url("../img/header-bg.jpeg");
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)),
+		url("../img/card_bg_portfolio.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
