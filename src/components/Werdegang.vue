@@ -55,4 +55,11 @@ export default {
         height: auto;
         margin-bottom: 2rem
     }
+
+    .timeline-heading {
+        margin-left: 2rem;
+    }
+    .timeline-body {
+        margin-left: 2rem;
+    }
 </style>
