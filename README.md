@@ -1,4 +1,4 @@
-# Portfolio basierend auf VueJS und Bootstrap
+# Erstellung einer laufenden Kopie des Projektes mithilfe von "Git clone"
 ## Clone project
 ```
 git clone <ssh link>
