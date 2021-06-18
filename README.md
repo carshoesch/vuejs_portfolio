@@ -4,7 +4,7 @@
 git clone <ssh link>
 ```
 
-## move into folder
+## Move into folder
 ```
 cd <foldername>
 ```
