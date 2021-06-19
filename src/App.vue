@@ -15,7 +15,7 @@
                   <div class="text-center">
                       <h2 class="section-heading text-uppercase">Über mich</h2>
                       <h3 class="section-subheading text-muted">Sportbegeistert, Sweet-Gourmet und Rätsel-Enthusiast. 
-                          Doch vor allem bin ich Softwa re-Entwickler mit einer Leidenschaft für die Erstellung intuitiver, benutzerfreundlicher Web-Erlebnisse. Erst gemeinsam werden gute Projekte großartig.</h3>
+                          Doch vor allem bin ich Software-Entwickler mit einer Leidenschaft für die Erstellung intuitiver, benutzerfreundlicher Web-Erlebnisse. Erst gemeinsam werden gute Projekte großartig.</h3>
                   </div>
                   <!-- über mich section mit den skills -->
                 <UeberMich/>
