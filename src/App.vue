@@ -14,8 +14,8 @@
               <div class="container">
                   <div class="text-center">
                       <h2 class="section-heading text-uppercase">Über mich</h2>
-                      <h3 class="section-subheading text-muted">Ich bin Software-Entwickler mit einer Leidenschaft für die Erstellung intuitiver, benutzerfreundlicher Web-Erlebnisse. <br>
-                      Durch meine vorherige Arbeit als Data Engineer bin ich zur Erkenntnis gekommen, dass die Arbeit am Frontend mir mehr Erfüllung gibt, als die Arbeit am Backend bzw. auf Datenbankebene.</h3>
+                      <h3 class="section-subheading text-muted">Sportbegeistert, Sweet-Gourmet und Rätsel-Enthusiast. 
+                          Doch vor allem bin ich Software-Entwickler mit einer Leidenschaft für die Erstellung intuitiver, benutzerfreundlicher Web-Erlebnisse. Erst gemeinsam werden gute Projekte großartig.</h3>
                   </div>
                   <!-- über mich section mit den skills -->
                 <UeberMich/>
@@ -26,7 +26,7 @@
               <div class="container">
                   <div class="text-center">
                       <h2 class="section-heading text-uppercase">Portfolio</h2>
-                      <h3 class="section-subheading text-muted">Eine kleine Zusammenfassung meiner bisherigen privaten Projekte.</h3>
+                      <h3 class="section-subheading text-muted">Here you go: Eine kleine Zusammenstellung meiner bisherigen, privat umgesetzten Projekte.</h3>
                   </div>
                   <PortfolioItems/>
               </div>
@@ -36,7 +36,10 @@
               <div class="container">
                   <div class="text-center">
                       <h2 class="section-heading text-uppercase">Werdegang</h2>
-                      <h3 class="section-subheading text-muted">Überblick meiner bisherigen Laufbahn.</h3>
+                      <h3 class="section-subheading text-muted">Von Backend zu Frontend – vom Beruf zur Leidenschaft! 
+                          Die Technologielandschaft in der wir uns bewegen ist vielfältig. 
+                          Heute entsteht dies und übermorgen das. 
+                          Mein Ziel ist es, nicht auf der Stelle zu stehen, zu lernen, um zukunftsfähige Web-Erlebnisse zu gestalten.</h3>
                   </div>
                   <Werdegang/>
               </div>
