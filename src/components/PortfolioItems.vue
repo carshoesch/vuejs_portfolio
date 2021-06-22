@@ -13,8 +13,10 @@
                     <div class="portfolio-caption">
                         <div class="portfolio-caption-heading">{{ obj.caption }}</div>
                         <br>
-                        <button><a :href="obj.link_git" target="_blank">Git-Repo</a></button>&nbsp
-                        <button><a :href="obj.link_live" target="_blank">Live-Demo</a></button>
+                        <div class="buttons">
+                            <button><a :href="obj.link_git" target="_blank">Git-Repo</a></button>&nbsp
+                            <button><a :href="obj.link_live" target="_blank">Live-Demo</a></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -74,5 +76,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    /* 420 width 225 height */
+    .portfolio-item {
 
+        img {
+            height: 14rem;
+            width: 26rem;
+        }
+
+        .portfolio-caption {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .portfolio-caption-heading {
+                height: 5rem;
+                width: 26rem;
+            }
+
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
 </style>
