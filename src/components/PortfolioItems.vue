@@ -76,8 +76,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+    html {
+        font-size: 16rem;
+    }
     /* 420 width 225 height */
     .portfolio-item {
+       /*  display: flex;
+        flex-wrap: wrap; */
 
         img {
             height: 14rem;
@@ -89,9 +95,12 @@ export default {
             flex-direction: column;
             align-items: center;
 
+
             .portfolio-caption-heading {
                 height: 5rem;
-                width: 26rem;
+                max-width: 26rem;
+                font-size: 1.3rem;
+                padding-bottom: 5rem;
             }
 
         }
