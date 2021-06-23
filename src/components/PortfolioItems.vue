@@ -101,7 +101,13 @@ export default {
                 max-width: 26rem;
                 font-size: 1.3rem;
                 padding-bottom: 5rem;
+
+                
             }
+
+            button {
+                    border-radius: 5px;
+                }
 
         }
     }
