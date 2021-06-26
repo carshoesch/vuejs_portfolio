@@ -1,4 +1,11 @@
 <template>
+ <section class="page-section" id="skills">
+              <div class="container">
+                  <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Über mich</h2>
+                      <h3 class="section-subheading text-muted">Sportbegeistert, Sweet-Gourmet und Rätsel-Enthusiast. 
+                          Doch vor allem bin ich Software-Entwickler mit einer Leidenschaft für die Erstellung intuitiver, benutzerfreundlicher Web-Erlebnisse. Erst gemeinsam werden gute Projekte großartig.</h3>
+                  </div>
   <div class="row text-center">
     <div class="col-md-4">
         <h3 class="sprachen">
@@ -13,6 +20,8 @@
         </div>
     </div>
 </div>
+ </div>
+          </section>
 </template>
 
 <script>

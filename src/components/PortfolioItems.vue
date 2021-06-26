@@ -1,4 +1,11 @@
 <template>
+
+<section class="page-section bg-light" id="portfolio">
+              <div class="container">
+                  <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Portfolio</h2>
+                      <h3 class="section-subheading text-muted">Here you go: Eine kleine Zusammenstellung meiner bisherigen, privat umgesetzten Projekte.</h3>
+                  </div>
     <div class="row">
         <div class="col-lg-4 col-sm-6 mb-4 skurr" v-for="(obj, index) in portfolioProject" :key="index">
                 <!-- Portfolio item 3-->
@@ -21,6 +28,8 @@
                 </div>
             </div>
     </div>
+    </div>
+          </section>
 </template>
 
 <script>

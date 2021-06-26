@@ -12,6 +12,15 @@
     </li>
 </ul> -->
 
+<section class="page-section" id="werdegang">
+              <div class="container">
+                  <div class="text-center">
+                      <h2 class="section-heading text-uppercase">Werdegang</h2>
+                      <h3 class="section-subheading text-muted">Von Backend zu Frontend – vom Beruf zur Leidenschaft! 
+                          Die Technologielandschaft in der wir uns bewegen ist vielfältig. 
+                          Heute entsteht dies und übermorgen das. 
+                          Mein Ziel ist es, nicht auf der Stelle zu stehen, zu lernen, um zukunftsfähige Web-Erlebnisse zu gestalten.</h3>
+                  </div>
     <div class="container">
         <div class="main-timeline">
             <!-- start experience section-->
@@ -35,6 +44,8 @@
             <!-- end experience section-->
         </div>
     </div>
+     </div>
+          </section>
 </template>
 
 <script>
