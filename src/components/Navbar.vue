@@ -69,6 +69,10 @@ export default {
             width: 100%;
         }
 
+        .masthead {
+            height: 100vh;
+        }
+
     </style>
         
  

@@ -1,4 +1,5 @@
 <template>
+    <!-- Navbar -->
     <Navbar/>
     
     <!-- über mich section mit den skills -->
