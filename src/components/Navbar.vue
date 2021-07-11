@@ -17,9 +17,11 @@
     </nav> <!-- Masthead--> 
           <header class="masthead">
               <div class="container">
-                  <div class="masthead-heading text-uppercase">Hi, ich bin Carsten</div>
+                  <div class="masthead-heading text-uppercase">Frontend-Developer</div>
                   <!-- <div class="masthead-heading text-uppercase">Moin, Snow hier</div> -->
-                  <div class="masthead-subheading">Software-Entwickler & Data Engineer</div>
+                  <div class="masthead-subheading">
+                      Hi, ich bin Carsten
+                  </div>
                   <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Zum Portfolio</a>
               </div>
           </header>
